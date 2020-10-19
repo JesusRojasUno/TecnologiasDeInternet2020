@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'FontHeader';
+    src: url('fonts/Staatliches-Regular.ttf');
+}
+
+.topnav {
+  background-color: #373636;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: middle;
+  padding: 10px 40px 10px 25px;
+  text-decoration: inherit;
+  font-size: 30px;
+  position: sticky;
+}
+
+.topnav a#logoLink:hover {
+	color: green;
+	background-color: #333;
+}
+
+img#navBarLogo {
+	border-radius: 50px;
+	padding: 20px !important;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  }
+
+#divSectionOne{
+	
+	height: 600px;
+}
+
+#divSectionTwo{
+	border-radius: 25px;
+	height: auto;
+	background-image: url("images/cover2.jpg");
+	background-size:100% 100%;
+	margin: 0;
+	display: inline-block;
+}
+#divSectionThree{
+	
+	height: auto;
+}
+
+#divSectionFour{
+	height: 600px;
+}
+
+#coverPhoto {
+	height: 100%;
+	width: 100%
+}
+
+.headerTitle {
+	text-align: center;
+	color: white;
+	font-family: 'FontHeader';
+	margin: 25px 30px 40px 30px;
+}
+.headerTitleBlack {
+	text-align: center;
+	color: black;
+	font-family: 'FontHeader';
+	margin-top: 20px;
+}
+
+.textDescription {
+	text-align: justify;
+	color: whitesmoke;
+	font-size: 25px;
+	margin: 30px;
+}
+
+* {
+    margin: 0;
+}
+
+#valueList{
+	color: whitesmoke;
+	border-style: none;
+	font-size: 26px;
+	display: list-item;
+	margin: 6px;
+	text-align: justify;
+}
+
+ul.valores{
+	color: white;
+	list-style-type: circle; !important;
+}
+
+
+input[type=text], select {
+  width: 30%;
+  padding: 18px 10px 20px 20px;
+  margin: 10px 4px;
+  display: inline-block;
+  border: 5px solid #9da6a1;
+  border-radius: 40px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #00bb2d;
+  color: white;
+  padding: 20px 50px 20px 50px;
+  margin: 20px 800px;
+  border: none;
+  border-radius: 90px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #00bb2d;
+}
+
+div#form {
+  border-radius: 21px;
+  background-color: gainsboro;
+  padding-right:60px;
+  padding-left: 40px;
+  padding-top:30px;
+}
