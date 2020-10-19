@@ -117,11 +117,11 @@ input[type=text], select {
 }
 
 input[type=submit] {
-  width: 10%;
+  width: 11%;
   background-color: #00bb2d;
   color: white;
   padding: 20px 50px 20px 50px;
-  margin: 20px 800px;
+  margin: 20px 805px;
   border: none;
   border-radius: 90px;
   cursor: pointer;
@@ -132,6 +132,7 @@ input[type=submit]:hover {
 }
 
 div#form {
+	background-color: #333;
   border-radius: 21px;
   background-color: gainsboro;
   padding-right:60px;
