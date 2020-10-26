@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>input</title>
+</head>
+
+<body>
+	<input type="number" name="texto" id="N1">
+	<input type="number" name="texto" id="N2">
+	<input type="button" id="B1">click</button>
+	<Script>
+	var B = document.getElementById("B1");
+	B.addEventListener("Click",()=>{
+	var a = document.getElementById("N1").value;
+	var b = document.getElementById("N2").value;
+	var sum= parseInt(a)+parseInt(b);
+	alert("Resultado:"+sum);
+	}
+	)
+	</Script>
+</body>
+</html>
