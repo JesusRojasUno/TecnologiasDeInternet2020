@@ -1,103 +1,117 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		
-		<title>Racquet Store</title>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
-		
-	<div class="topnav">
-		<a id="logoLink" href=""><img id="navBarLogo" src="images/logo.png" class="img-circle" alt="logo" width="350" height="350"></a>
-		<a href="#divSectionOne"class="headerTitle">Inicio</a>
-		<a href="#divSectionTwo"class="headerTitle">Nosotros</a>
-		<a href="#divSectionThree"class="headerTitle">Productos y Servicios</a>
-		<a href="#divSectionFour"class="headerTitle">Contacto</a>
-	</div>
-	<div id="divSectionOne">
-		<img id="coverPhoto" src="images/cover.jpg">
-	</div>
-	<div id="divSectionTwo">
-		<h1 class="headerTitle">Misión</h1>
-		<p class="textDescription">Brindar soluciones en el campo del deporte a nivel nacional e internacional a través de la innovación, servicio y  calidad de los productos que ofrecemos, nuestros recursos están destinados a contribuir con el desarrollo de la salud física y mental logrando así cumplir con el compromiso adquirido con nuestro público meta.</p>
-		<br>
-		<h1 class="headerTitle">Visión</h1>
-		<p class="textDescription">Racquet store es una empresa líder en el mercado de implementos y artículos deportivos que busca posicionamiento en el Continente Americano, brindando productos de alta calidad para la práctica del deporte tanto a nivel profesional como recreativo, ofreciendo soluciones para las distintas necesidades,  utilizando una plataforma tecnológica que simplifique y facilite los procesos de las distintas áreas,  comprometidos a apoyar la salud mental y física de nuestro público.</p>
-		<br>
-		<h1 class="headerTitle">Valores</h1>
-		<ul class="textDescription" >
-			<li id="valueList"> <b>Respeto:</b> Es reconocer, apreciar y valorar a mi persona, así como a los demás, y a mi entorno. Es establecer hasta dónde llegan mis posibilidades de hacer o no hacer, como base de toda convivencia en sociedad. </li><br>
-			<li id="valueList"> <b>Integridad:</b> Es la demostración constante de actitudes positivas, aspirando a la eficacia, a la calidad y a la perfección humana de manera transparente. </li><br>
-			<li id="valueList"> <b>Perseverancia:</b> Es alcanzar lo propuesto y buscar soluciones a las dificultades que puedan surgir. </li><br>
-			<li id="valueList"> <b>Humildad:</b> Es reconocer nuestras debilidades, cualidades, capacidades y aprovecharlas para obrar en bien de los demás. </li><br>
-			<li id="valueList"> <b>Honestidad:</b> Es armonizar las palabras con los hechos, es tener identidad y coherencia para estar orgulloso de sí mismo para con la empresa.</li><br>
-		</ul>
+<head>
+    <title>Final</title>
+    <link rel="stylesheet" href="../final.css">
+</head>
+	
+	<div style="background-image: url('https://pbs.twimg.com/media/Eonkyb7UYAA_bEv?format=jpg&name=large');" background-size= 100% 100%>
+	
+<body>Tamales la purisima S.A. de C.V.
+    <h1>Tamales la purisima??????</h1>
+    <div id="uno">
+        <p id="info"></p>
+    </div>
+    <div id="cero">
+<div class="center">
+  <p>Total dentro:<input type="number" name="Total" id="total" value="0" />
+</p>
+          <p> Hombres:
+            <input type="number" name="Hombres" id="hombres" value="0" />
+          </p>
+          <p>Mujeres:
+            <input type="number" name="Mujeres" id="mujeres" value="0" />
+          </p>
+          <div id="tres">
+            <p>Ingresar� un/a:</p>
+            <p>
+              <label for="homb" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif">Hombre</label>
+              <input type="radio" id="homb" name="genero" value="hombre">
+              <label for="muj" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif">Mujer</label>
+              <input type="radio" id="muj" name="genero" value="mujer">
+            </p>
+            <p>
+              <button type="button" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode text-align: center;" onclick="aumentar()">Entra</button>
+              <button type="button" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode text-align: center;" onclick="disminuir()"> Sale</button>
+            </p>
+            <p><span style="text-align: center"><span class="Left"><img src="https://pbs.twimg.com/media/Eonis0hU0AAVuXY?format=jpg&name=large" alt="local" width="617" id="img1" /></span></span></p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp; </p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp; </p>
+            <p>&nbsp;</p>
+            <p><br>
+            </p>
+  </div>
+  <div id="cuatro">
+		 <div class="center">
+		   <p>&nbsp;</p>
+    </div>
+        </div>
+  <span style="text-align: center"></span>
+  <span style="text-align: justify"></span>
+  <span style="text-align: right"></span>
+  <span style="text-align: left"></span>
+  <span style="text-align: center"></span>
+				 
+  <div class="Left"></div>
+</div>
+		         
+    <script>
+        var myJson = ' {"establecimiento":"Tamales la pur�sima","aforo":40}'
+        var obj = JSON.parse(myJson)
+        document.getElementById("info").innerHTML = `El local es: ${obj.establecimiento} con un m�ximo de: ${obj.aforo} personas `
 
-	</div>
-	<div id="divSectionThree">
-				<br></br>
-		
-	<h1 class="headerTitleBlack">Productos</h1>
-		 <br>
-		</br>
-	<center>
-	    <img src="images/Products/raquets.jpeg"  style="height: 250px; width: 250px">
-		<img src="images/Products/bags.jpeg" style="height: 250px; width: 250px">   
-	    <img src="images/Products/glasses.jpg" style="height: 250px; width: 250px">  
-	    <br></br>
-		<img src="images/Products/gloves.jpg" style="height: 250px; width: 250px">
-		<img src="images/Products/grips.jpeg" style="height: 250px; width: 250px">
-		<img src="images/Products/racquetballs.jpeg" style="height: 250px; width: 250px">
-		<br></br>
-		<img src="images/Products/strings.jpeg" style="height: 250px; width: 250px">
-		<img src="images/Products/bumpers.jpg" style="height: 250px; width: 250px">
-		<img src="images/Products/shoes.jpeg" style="height: 250px; width: 250px">
-</center>
-	</div>
-	<div id="divSectionFour">
-		<br></br>
-		<br></br>
-	<h1 class="headerTitleBlack">Contáctanos</h1>
-		<br></br>
-	    <br></br>
+        function aumentar() {
+            tot = document.getElementById("total").value
+            tot = parseInt(tot) + 1
+            document.getElementById("total").value = tot
 
-	<div id="form">
-	  <form action="/action_page.php">
-	    <label for="fname"class="headerTitleBlack">Nombre</label>
-	    <input type="text" id="fname" name="Nombre" placeholder="Juan">
+            if (document.getElementById("homb").checked) {
+                h = document.getElementById("hombres").value
+                h = parseInt(h) + 1
+                document.getElementById("hombres").value = h
+                document.getElementById("img1").src = "https://pbs.twimg.com/media/EonkItPUYAIu7pa?format=jpg&name=large";
+            }
+            else if (document.getElementById("muj").checked) {
+                m = document.getElementById("mujeres").value
+                m = parseInt(m) + 1
+                document.getElementById("mujeres").value = m
+                document.getElementById("img1").src = "";
+                document.getElementById("img1").src = "https://pbs.twimg.com/media/EonkhWyUUAAcyvH?format=jpg&name=large";
+            }
+            if (tot>=41) {
+                alert("No cabe ning�n alma m�s:(")
+            }
+        }
 
-	    <label for="lname"class="headerTitleBlack">Apellido</label>
-	    <input type="text" id="lname" name="Apellido" placeholder="Rodriguez">
+        function disminuir() {
+            tot = document.getElementById("total").value
+            tot = parseInt(tot) - 1
+            document.getElementById("total").value = tot
 
-	    <label for="País"class="headerTitleBlack">País</label>
-	    <select id="country" name="País">
-	      <option value="México">México</option>
-	      <option value="cANADA">Canada</option>
-	      <option value="USA">USA</option>
-	    </select>
-	  
-	    <input type="submit" value="Enviar">
-	  </form>
-	</div>
-		<br></br>
-	<center>
-		<h1 class="headerTitleBlack">Ubicación</h1>
-	</center>
-		<br></br>
-		<div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=%20Calle%20San%20Miguel%20el%20Grande%20Campus%20Uach%20II%20Chihuahua,%20Chih.+(Racquet%20Store)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
-		<br></br>
-		<h1 class="">Siguenos en nuestras redes sociales y contactanos</h1>
-		<br></br>
-		<img src="images/Products/facebook.png" style="height: 50px; width: 50px">
-		<img src="images/Products/messenger.png" style="height: 50px; width: 50px">
-		<img src="images/Products/instagram.png" style="height: 50px; width: 50px">
-		<img src="images/Products/twitter.png" style="height: 50px; width: 50px">
-		<br></br>
-	    <br></br>
-		<h3 class="">Racquet Store CUU (614 123 45 67)</h3>
-	    <br></br>
+             if (document.getElementById("homb").checked) {
+                h = document.getElementById("hombres").value
+                h = parseInt(h) - 1
+                 document.getElementById("hombres").value = h
+                 document.getElementById("img1").src = "https://static7.depositphotos.com/1021541/681/i/600/depositphotos_6819982-stock-photo-leaving-home.jpg";
+            }
+            else if (document.getElementById("muj").checked) {
+                m = document.getElementById("mujeres").value
+                m = parseInt(m) - 1
+                 document.getElementById("mujeres").value = m
+                  document.getElementById("img1").src = "https://www.lamamaoca.com/wp-content/uploads/2016/10/photo-1467510396478-c4680a636614.jpg";
+            }
+            if (tot>=41) {
+                alert("No cabe ning�n alma m�s:(")
+            }
+        }
 
-	</div>
-	</body>
+    </script>
+</body>
 </html>

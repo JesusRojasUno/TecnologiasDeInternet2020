@@ -1,0 +1,44 @@
+h1{
+	text-align: center;
+	color: white;
+}
+
+p{
+	font-size: large;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", sans-serif;
+	text-align: center;
+	color: white;
+}
+
+#uno{
+    text-align:center;
+	color: white;
+	
+}
+#info{
+    font-size:center;
+}
+#img1{
+	width: 600px;
+	height: 400px;
+	text-align: justify;
+}
+#cuatro{
+	    text-align:center;
+}
+#cinco{
+    right: auto;
+	float:center;
+}
+.Right {
+    float: center;
+    width: 45%;
+    padding: 100px;
+    margin-top:100px;
+}
+.Left {
+	float: left;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
